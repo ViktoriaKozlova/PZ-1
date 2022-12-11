@@ -1,0 +1,38 @@
+<hot:orders xmlns:hot="http://hotel.com">
+<hot:order id="1">
+  <hot:orderId>1</hot:orderId>
+  <hot:orderStatus>New</hot:orderStatus>
+  <hot:room id="1">
+  </hot:room>
+<hot:spa id="1">
+
+</hot:spa>
+<hot:menu id="1">
+
+</hot:menu>
+</hot:order>
+
+<hot:order id="2">
+  <hot:orderId>2</hot:orderId>
+  <hot:orderStatus>New</hot:orderStatus>
+  <hot:room id="2">
+  </hot:room>
+<hot:spa id="2">
+</hot:spa>
+<hot:menu id="3">
+</hot:menu>
+
+</hot:order>
+<hot:order id="3">
+  <hot:orderId>3</hot:orderId>
+  <hot:orderStatus>New</hot:orderStatus>
+  <hot:room id="3">
+  </hot:room>
+<hot:spa id="2">
+</hot:spa>
+<hot:menu id="3">
+</hot:menu>
+</hot:order>
+
+
+</hot:orders>

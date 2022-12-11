@@ -1,0 +1,7 @@
+<hot:room id="1" xmlns:hot="http://hotel.com">
+  <hot:roomId>1</hot:roomId>
+  <hot:number>1</hot:number>
+  <hot:categori>Ordinary</hot:categori>
+  <hot:count>2</hot:count>
+  <hot:price>150</hot:price>
+</hot:room>

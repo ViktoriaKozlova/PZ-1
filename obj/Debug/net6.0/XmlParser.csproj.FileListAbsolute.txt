@@ -1,0 +1,15 @@
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.csproj.AssemblyReference.cache
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.AssemblyInfoInputs.cache
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.AssemblyInfo.cs
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.csproj.CoreCompileInputs.cache
+C:\ПРОЭКТЫ\XmlParser\XmlParser\bin\Debug\net6.0\XmlParser.exe
+C:\ПРОЭКТЫ\XmlParser\XmlParser\bin\Debug\net6.0\XmlParser.deps.json
+C:\ПРОЭКТЫ\XmlParser\XmlParser\bin\Debug\net6.0\XmlParser.runtimeconfig.json
+C:\ПРОЭКТЫ\XmlParser\XmlParser\bin\Debug\net6.0\XmlParser.dll
+C:\ПРОЭКТЫ\XmlParser\XmlParser\bin\Debug\net6.0\XmlParser.pdb
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.dll
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\refint\XmlParser.dll
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.pdb
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\XmlParser.genruntimeconfig.cache
+C:\ПРОЭКТЫ\XmlParser\XmlParser\obj\Debug\net6.0\ref\XmlParser.dll

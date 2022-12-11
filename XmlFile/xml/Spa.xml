@@ -1,0 +1,4 @@
+<hot:spa id="1" xmlns:hot="http://hotel.com">
+  <hot:name>name</hot:name>
+  <hot:price>120</hot:price>
+</hot:spa>

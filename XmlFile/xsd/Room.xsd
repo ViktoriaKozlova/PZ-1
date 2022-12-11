@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://hotel.com"
+            xmlns:hot = "http://hotel.com"
+            elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="./Entity.xsd"/>
+
+    <xsd:simpleType name="unsignedDouble">
+        <xsd:restriction base="xsd:double">
+            <xsd:minInclusive value="0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="Room">
+        <xsd:complexContent>
+            <xsd:extension base="hot:Entity">
+                <xsd:sequence>
+                    <xsd:element name="roomId" type="xsd:unsignedLong"/>
+                    <xsd:element name="number" type="xsd:unsignedByte"/>
+		    <xsd:element name="categori" type="xsd:token"/>
+                    <xsd:element name="count" type="xsd:unsignedByte"/>
+		    <xsd:element name="price" type="hot:unsignedDouble"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    
+    <xsd:element name="room" type="hot:Room" />
+    
+</xsd:schema>

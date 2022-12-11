@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://hotel.com"
+            xmlns:hot="http://hotel.com"
+            elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="./Entity.xsd"/>
+    <xsd:include schemaLocation="./Room.xsd"/>
+    <xsd:include schemaLocation="./Spa.xsd"/>
+    <xsd:include schemaLocation="./Menu.xsd"/>
+
+    <xsd:simpleType name="OrderStatus">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="New"/>
+            <xsd:enumeration value="Active"/>
+            <xsd:enumeration value="Finished"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="Order">
+        <xsd:complexContent>
+            <xsd:extension base="hot:Entity">
+                <xsd:sequence>
+                    <xsd:element name="orderId" type="xsd:unsignedLong"/>
+                    <xsd:element name="orderStatus" type="hot:OrderStatus"/>
+                    <xsd:element name="room" type="hot:Room" minOccurs="1" maxOccurs="unbounded"/>
+                    <xsd:element name="menu" type="hot:Menu" minOccurs="1" maxOccurs="unbounded"/>
+                    <xsd:element name="spa" type="hot:Spa" minOccurs="1" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:element name="order" type="hot:Order"/>
+
+</xsd:schema>

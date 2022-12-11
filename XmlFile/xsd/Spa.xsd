@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://hotel.com"
+            xmlns:hot = "http://hotel.com"
+            elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="Entity.xsd"/>
+    <xsd:simpleType name="_unsignedDouble">
+        <xsd:restriction base="xsd:double">
+            <xsd:minInclusive value="0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="Spa">
+        <xsd:complexContent>
+            <xsd:extension base="hot:Entity">
+                <xsd:all>
+                    <xsd:element name="name" type="xsd:token"/>
+                    <xsd:element name="price" type="hot:_unsignedDouble"/>
+                </xsd:all>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:element name="spa" type="hot:Spa" />
+    
+</xsd:schema>

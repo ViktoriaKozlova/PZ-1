@@ -1,0 +1,5 @@
+<hot:menu id="1" xmlns:hot="http://hotel.com">
+  <hot:name>name</hot:name>
+  <hot:ingridients>ingridients</hot:ingridients>
+  <hot:price>150</hot:price>
+</hot:menu>

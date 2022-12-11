@@ -1,0 +1,6 @@
+<hot:user id="1" xmlns:hot="http://hotel.com">
+  <hot:name>name</hot:name>
+  <hot:surname>surname</hot:surname>
+  <hot:middleName>middlename</hot:middleName>
+  <hot:phone>+380985208969</hot:phone>
+</hot:user>
