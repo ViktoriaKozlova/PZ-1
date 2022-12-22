@@ -8,7 +8,7 @@ using XmlParsers.Parsers;
 using static Order;
 
 // Validation
-/*
+
 XmlValidator.ValidateXmlDocument(new Url(XmlHelper.BaseUrl, @"Xml/Order.xml"));
 XmlValidator.ValidateXmlDocument(new Url(XmlHelper.BaseUrl, @"Xml/Orders.xml"));
 XmlValidator.ValidateXmlDocument(new Url(XmlHelper.BaseUrl, @"Xml/Menu.xml"));
@@ -47,6 +47,6 @@ foreach (var booking in parsedOrdersDOM)
 {
     Console.WriteLine(booking);
 }
-*/
+
 XmlTransform.TransformXMLToHTML(new Url(XmlHelper.BaseUrl, @"Xml/Orders.xml").FullPath,
     new Url(XmlHelper.BaseUrl, @"Xml/Order.xslt").FullPath);
